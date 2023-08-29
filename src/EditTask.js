@@ -5,6 +5,7 @@ import React, { useState } from "react";
 function EditTask({ task }) {
     const [isEditing, setIsEditing] = useState(false);
     const [editedTask, setEditedTask] = useState(task.description);
+    let kerem = "";
 
     const handleEditClick = () => {
         setIsEditing(true);
